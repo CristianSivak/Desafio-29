@@ -3,6 +3,7 @@ const expressSession = require('express-session');
 const cookieParser = require('cookie-parser');
 const handlebars = require('express-handlebars');
 const mongoose = require('mongoose');
+const cluster = require('cluster');
 const TwitterStrategy = require('passport-twitter').Strategy;
 
 /////////////////*PASSPORT*//////////////////////// 
